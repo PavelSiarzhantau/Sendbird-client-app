@@ -1,0 +1,85 @@
+.customized-app {
+  /* height: 500px calc(80vh - 20px); */
+  width: 220px;
+}
+
+.sendbird-chat-header__right {
+  display: none;
+}
+
+.sendbird-chat-header {
+  display: none;
+}
+
+/* will be duplicated */
+.sendbird-channel-preview__avatar .sendbird-chat-header__avatar {
+  width: 56px !important;
+  height: 56px !important;
+}
+.sendbird-channel-preview__avatar
+  .sendbird-chat-header__avatar
+  .sendbird-image-renderer.sendbird-avatar-img {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.sendbird-app__wrap {
+  display: grid;
+  grid-template-columns: 8fr 3fr;
+  position: absolute;
+  bottom: 0;
+  min-height: 500px;
+  max-height: 50vh;
+}
+
+.sendbird-app__conversation-wrap {
+  width: 260px;
+}
+
+.ticket-form-container {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: gray;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  border: 1px lightgray solid;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 240px;
+  min-height: 500px;
+  max-height: 50vh;
+}
+
+.ticket-form-container_section__header {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.ticket-form-container_section {
+  display: grid;
+  background: white;
+  padding: 20px;
+}
+
+.ticket-form-container_section__button {
+  background: #825eeb;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 1px lightgrey;
+}
+
+.ticket-form-container_section__button:hover {
+  background: white;
+  color: #825eeb;
+}
